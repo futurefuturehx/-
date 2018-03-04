@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style>
+			div.dir
+			{
+				direction: rtl;
+				unicode-bidi: bidi-override;
+			}
+			<!--direction设置文本方向 rtl表示从右往左
+			必须要借助unicode-bidi:bidi-override来辅助实现-->
+		</style>
+	</head>
+	<body>
+		<div>一般文字都是从左往右的</div>
+		<div class="dir">但是可以通过设置 实现从右往左</div>
+	</body>
+</html>

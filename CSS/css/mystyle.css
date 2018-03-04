@@ -1,0 +1,5 @@
+hr{color:red;}
+p{margin-left:20px;}
+body{background-image:url("../img/wallhaven-625760.jpg");}
+<!--记得写分号 注意是大括号不是圆括号 url的应用形式得正确-->
+<!--注意用相对路径 并且要知道..是指上层目录-->
